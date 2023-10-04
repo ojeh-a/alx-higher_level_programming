@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-def uppercase(s):
+def uppercase(str):
     result = ""
-    for letter in s:
+    for letter in str:
         if 'a' <= letter <= 'z':
             letter = chr(ord(letter) - ord('a') + ord('A'))
         result += letter
