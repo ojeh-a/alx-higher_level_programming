@@ -11,7 +11,7 @@ if __name__ == '__main__':
         print("0 arguments.")
 
     else:
-        print("{} arguments".format(number))
+        print("{} arguments:".format(number))
 
     for i in range(1, number + 1):
         argument = sys.argv[i]
