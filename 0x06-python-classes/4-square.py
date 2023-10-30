@@ -3,6 +3,7 @@
 
 
 class Square:
+    """ Class square """
     def __init__(self, size=0):
         """
         Init a new square
@@ -25,6 +26,6 @@ class Square:
             raise TypeError("size must be >= 0")
         return (self.value)
 
-    def size(self):
+    def area(self):
         """ Return area of the square """
         return (self.__size ** 2)
