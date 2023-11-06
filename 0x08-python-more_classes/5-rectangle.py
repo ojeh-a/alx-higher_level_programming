@@ -47,7 +47,7 @@ class Rectangle:
 
         return (self.__height * self.__width)
 
-    def perimeter(self):
+    def perimeter(self)
         """Return the perimeter of the Rectangle"""
 
         if self.height == 0 or self.width == 0:
@@ -70,4 +70,4 @@ class Rectangle:
         """Return a string representation of the rectsngle."""
         rep = "Rectangle(" + str(self.__width)
         rep += ", " + str(self.__height) + ")"
-        return (rep)
+        return (rep):
