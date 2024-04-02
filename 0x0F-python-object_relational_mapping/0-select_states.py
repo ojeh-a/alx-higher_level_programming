@@ -1,10 +1,10 @@
 #!/usr/bin/python3
-import sys
-import MySQLdb
 '''
 This script connects to mysql and lists all states from
 the database `hbtn_0e_usa`
 '''
+import sys
+import MySQLdb
 
 
 if __name__ == "__main__":
