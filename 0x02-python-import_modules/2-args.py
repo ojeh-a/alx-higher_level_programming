@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 if __name__ == '__main__':
+<<<<<<< HEAD
     import sys
 
     number = len(sys.argv) - 1
@@ -16,3 +17,18 @@ if __name__ == '__main__':
     for i in range(1, number + 1):
         argument = sys.argv[i]
         print("{}: {}".format(i, argument))
+=======
+	from sys import argv
+	number_of_arguments = len(argv)
+
+	if number_of_arguments > 1:
+		if number_of_arguments == 2:
+			print(f"{number_of_arguments - 1} argument")
+		else:
+			print(f"{number_of_arguments - 1} Arguments")
+		for argument in range(number_of_arguments - 1):
+			print(f"{argument + 1}: {argv[argument + 1]}")
+
+	else:
+		print(f"0 Arguments")
+>>>>>>> de9e906 (update from ubuntu)

@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+<<<<<<< HEAD
 '''
     element_at: retrievs an element from a list
     Return: the element at the index given.
@@ -13,3 +14,13 @@ def element_at(my_list, idx):
         return (None)
     else:
         return (my_list[idx])
+=======
+def element_at(my_list, idx):
+	if idx < 0:
+		return None
+	elif idx > len(my_list):
+		return None
+	else:
+	 return my_list[idx]
+
+>>>>>>> de9e906 (update from ubuntu)
