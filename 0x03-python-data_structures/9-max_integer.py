@@ -1,6 +1,9 @@
 #!/usr/bin/python3
 <<<<<<< HEAD
+<<<<<<< HEAD
 
+=======
+>>>>>>> de9e906 (update from ubuntu)
 =======
 >>>>>>> de9e906 (update from ubuntu)
 def max_integer(my_list=[]):

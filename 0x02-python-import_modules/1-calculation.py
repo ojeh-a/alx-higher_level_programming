@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 <<<<<<< HEAD
+<<<<<<< HEAD
 if __name__ == "__main__":
     from calculator_1 import add, sub, mul, div
     a = 10
@@ -17,6 +18,8 @@ if __name__ == "__main__":
     result = div(a, b)
     print("{} / {} = {}".format(a, b, result))
 =======
+=======
+>>>>>>> de9e906 (update from ubuntu)
 if __name__=="__main__":
 	import calculator_1 as calc
 
@@ -26,4 +29,7 @@ if __name__=="__main__":
 	print(f"{a} - {b} = {calc.sub(a, b)}")
 	print(f"{a} * {b} = {calc.mul(a, b)}")
 	print(f"{a} / {b} = {calc.div(a, b)}")
+<<<<<<< HEAD
+>>>>>>> de9e906 (update from ubuntu)
+=======
 >>>>>>> de9e906 (update from ubuntu)

@@ -2,7 +2,11 @@
 str1 = "Holberton"
 str2 = "School"
 <<<<<<< HEAD
+<<<<<<< HEAD
 str1 = str1 + " " + str2
+=======
+str1 = str1 + ' ' + str2
+>>>>>>> de9e906 (update from ubuntu)
 =======
 str1 = str1 + ' ' + str2
 >>>>>>> de9e906 (update from ubuntu)

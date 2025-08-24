@@ -1,6 +1,7 @@
 #!/usr/bin/python3
 if __name__ == '__main__':
 <<<<<<< HEAD
+<<<<<<< HEAD
     import sys
 
     number = len(sys.argv) - 1
@@ -18,6 +19,8 @@ if __name__ == '__main__':
         argument = sys.argv[i]
         print("{}: {}".format(i, argument))
 =======
+=======
+>>>>>>> de9e906 (update from ubuntu)
 	from sys import argv
 	number_of_arguments = len(argv)
 
@@ -31,4 +34,7 @@ if __name__ == '__main__':
 
 	else:
 		print(f"0 Arguments")
+<<<<<<< HEAD
+>>>>>>> de9e906 (update from ubuntu)
+=======
 >>>>>>> de9e906 (update from ubuntu)
