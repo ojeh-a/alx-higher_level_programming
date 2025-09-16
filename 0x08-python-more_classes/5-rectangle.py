@@ -56,18 +56,18 @@ class Rectangle:
 
     def perimeter(self):
         """Rectangle perimeter"""
-        if self.width ==  0 or self.height == 0:
+        if self.width == 0 or self.height == 0:
             return 0
         return (2 * (self.height + self.width))
-    
+
     def __str__(self):
         for i in range(self.height):
             if self.height == 0 or self.width == 0:
                 return ""
             return "\n".join(["#" * self.width] * self.height)
-        
+
     def __repr__(self):
         return "Rectangle({}, {})".format(self.width, self.height)
-    
+
     def __del__(self):
         print("Bye rectangle...")
